@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exploring SystemJs</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="https://jspm.io/system@0.19.js"></script>
+<script type="text/javascript">
+    System.config({
+        transpiler: "babel"
+    });
+
+    System.import("./js/app.js");
+
+</script>
+</body>
+</html>
